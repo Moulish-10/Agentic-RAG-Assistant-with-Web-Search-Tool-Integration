@@ -16,18 +16,7 @@ Dynamically decide which tool to use
 
 Unlike traditional RAG systems, this assistant reasons and selects tools autonomously, making it more powerful and flexible.
 
-⚙️ Architecture
-User Query
-     ↓
-Agent (Decision Maker)
-     ↓
- ┌───────────────┬───────────────┬───────────────┐
- │               │               │               │
-RAG Tool     Tavily Tool     Math Tool      LLM Direct
- │               │               │               │
- └───────────────┴───────────────┴───────────────┘
-                     ↓
-              Final Response
+
 🧰 Tools Used
 📄 1. RAG Tool
 
